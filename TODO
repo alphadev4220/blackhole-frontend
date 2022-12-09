@@ -1,0 +1,292 @@
+cosmwasm-ts-codegen generate \
+          --plugin client \
+          --schema ./schema \
+          --out ./ts \
+          --name stakin \
+          --no-bundle
+
+probuf cosmos file
+
+Add to mintscan
+https://twitter.com/JunoNetwork/status/1574471164285653004?t=Ur6DkrkRwYCVrLqSEciQNA&s=09
+
+make a profile section and include links to other platforms. 
+make an nft on solana that points to 
+look more into staking
+
+make the K bigger? Hover mesasge "Connect to Kepler"
+
+put a link to the telegram airdrop on the home page or
+
+share your claim experience. Link to twitter. 
+Add Juno, bFot, XRP, Solo, EQ to voting
+show poll funcationality
+have a banner that says we are in prelease. 
+
+xxxx
+votedrop
+update domain to blackholeaidrops.app
+update roadmap
+change claim to Token drops
+
+QUARTER 3 - 2022
+
+AIRDROP TO COSMOS ecosystem
+Airdrop to Cosmos Ecosystem
+LIST HOLE ON JUNOSWAP, LINK TO JUNOSWAP
+EXECUTE FIRST VOTE TO BLACKHOLE VOTE
+
+Do they have a test platform for liquidity.
+
+join discord
+retweet, like, follow
+join telegram
+tag 5 friends, 300
+enter juno address
+
+
+
+LAUNCHING VOTING API
+
+
+need from mark/niles, copy
+verification email copy
+airdrop landing page copy
+
+fix how voting works popup over keplr connect.
+
+add whitepaper link to header. 
+replace vote button with airdrop link. 
+
+add text box to admin in edit poll as site content
+
+header keplr connect wallet
+register/login/get email link box.
+
+rich list?
+incorporate session messaging into verification
+
+add voting section back with image.
+
+secure voting with email login
+
+"add to wallet" button or address
+"view coin" link to mintscan. 
+
+
+start air drop
+setup claim page
+bigger k
+tweet airdrop claim
+add liquidity
+vote drop, fortis econama, https://www.fortisoeconomia.space/votedrops/
+
+Junoswap Asset List
+https://github.com/CosmosContracts/junoswap-asset-list/commit/db23150751d37fca8c355689229eb8833969ec3c
+
+header logo and text bigger
+
+https://juno.tools/airdrops/register/?contractAddress=juno14c5uvd66ly6auzhhjcvsxxvpxxg6hjgsf8mcn5hzx6g6d9gkpf9sepygdd
+
+change HOLE in app. 
+
+get mobile working
+collect emails via mailchimp
+
+put whitepaper on top
+make blackhole voting interactive. add a loading icon.vortex loading
+play a game to get free tokens.
+create a fixed header version of the wallet
+items bigger on header
+Black hole for loading
+Add backdrop blur to text. 
+add white circle behind voting thumbnails.
+
+get it working on mobile
+
+send tokens with stargate
+https://gist.github.com/webmaster128/8444d42a7eceeda2544c8a59fbd7e1d9
+
+https://github.com/cosmos/cosmjs
+
+Blackhole test
+https://www.mintscan.io/juno/wasm/contract/juno1rdw3gumdz7zyjn2pev9ugxs765xlv6vtv6g3jt2lqw580zrchvjs66daca
+
+
+https://discord.com/invite/juno
+
+https://lcd-juno.itastakers.com/#/Query/CosmosBankV1Beta1Balance
+
+https://docs.junonetwork.io/cli/modules/bank
+
+https://juno-rpc.polkachu.com/
+
+https://docs.tendermint.com/master/rpc/#/ABCI/abci_query
+
+https://pkg.go.dev/github.com/cosmos/cosmos-sdk/api@v0.1.0/cosmos/auth/v1beta1
+
+https://lcd-juno.cosmostation.io/cosmos/bank/v1beta1/balances/juno15uv6hx0a6khw45fj29cavrxvfenq7z03k2ayyp?pagination.limit=1000
+
+https://lcd-juno.itastakers.com/cosmos/bank/v1beta1/balances/juno15uv6hx0a6khw45fj29cavrxvfenq7z03k2ayyp?pagination.limit=1000
+
+rgb(160,217,235)
+rgb(65, 176, 201)
+rgb(236, 230, 152)
+
+Vote with your blackhole token below. 
+Link to whitepaper
+
+{
+    "path": "/cosmos.auth.v1beta1.Query/Account",
+    "data": "0a2b6a756e6f313575763668783061366b68773435666a323963617672787666656e71377a30336b3261797970",
+    "prove": false
+}
+
+close gaps on votes and results
+
+email list submission, connect with sendgrid or mailchimp. 
+learn how to query the juno rpc endpoint. 
+get functionality working for cosmos chain. 
+hide admin section, password protect
+create a team section or about section
+create a snapshot background process at the end of poll.
+add additional wallet support
+create a supported wallets page. partners page?
+find out of the balances is returning ATOM
+
+partners
+team
+
+https://codepen.io/tmrDevelops/pen/NNGvEv
+Or 
+https://codepen.io/strangerintheq/pen/oNLZMYB
+add logo to site
+add funds and total in the admin will help me with processes later
+
+guid admin url
+remove admin from initial site
+inactivate poll campaign option
+Remove Create Next App
+
+thumbnail for a poll option
+account
+
+add ability to remove an option. 
+get active campaigns from poll.
+deactiviate a campaigns
+only one active poll. 
+
+https://lcd-cosmos.cosmostation.io/cosmos/bank/v1beta1/balances/cosmos15uv6hx0a6khw45fj29cavrxvfenq7z03qc7lra?pagination.limit=1000
+
+https://rpc.cosmos.network/
+
+https://cosmoshub.validator.network:443
+
+curl localhost:26657/block?height=5
+
+curl https://stargate.cosmos.network/block?height=5
+
+
+curl https://rpc.cosmos.network:26657/block?height=5
+
+curl https://cosmoshub.validator.network:26657/block?height=5
+cosmos14n54vflfey7k3uhw2p2kp7emfqw4muqd832msu
+
+https://lcd-cosmos.cosmostation.io/cosmos/bank/v1beta1/balances/cosmos15uv6hx0a6khw45fj29cavrxvfenq7z03qc7lra?pagination.limit=1000
+
+
+juno14n54vflfey7k3uhw2p2kp7emfqw4muqd832msu
+
+create data structure for polls
+create poll form
+edit poll form
+poll
+    - description
+    - name
+    - duration
+    - start time
+    - chain (juno)
+
+poll option 
+    - description
+
+poll campaign
+    - poll id
+    - start datetime
+    - end datetime
+    - chain 
+
+poll responses
+
+    - respondant crypto address
+    - poll instance id
+    - 
+
+Email Auction winner using rails polling event whenever. 
+Fix the mobile menu. 
+Add a link to step 2 on home page. 
+Add show/hide ability to NFT. 
+
+Add 'no auctions available' when there is no nfts available. 
+Extend auction after high bid. 
+
+
+Go through a dry run of sending someone an NFT. 
+
+Roadmap.
+A Timelogger 
+
+
+
+remove connect bid
+change the title text
+wallet and menu problems on mobile
+
+
+once ended, remove bid button.
+Add twitter and telegram logos. 
+
+
+Start Auction Feature. 
+Specify current bid on index page. 
+
+
+manage listings as a group. 
+
+
+
+Should we extend auction by 10 minutes if a bid has been made in the last 10 minutes. 
+Fix the footer. 
+
+Add human verification functionality back in. 
+Make the thumbnail separate. 
+
+https://biddy-nft.herokuapp.com/nft_listings
+
+mongosh "mongodb+srv://cluster0.swpg9.mongodb.net/biddydbprod" --username bkarst
+
+Secure the API by restricting domain call. 
+Make the backend API call changable when deploying to vercel. 
+
+3. Collect Email, XRP Address, Bid on the placing of a bid. 
+
+1. Create a react component similar to sologenic's "Connect Wallet" Feature for 
+XUMM only. Use connected wallet to escrowed xrp auction where if they win the auction, the 
+
+Hold the amount in escrow 
+escrow creator. 
+Create a trustline that is an escrow. 
+Create a biddding system in XRP that works with 
+Trustline. 
+
+Turn Countdown box red in last 24 hours. Green otherwise. 
+Make a Detail Page for the NFT with bid history. 
+Generate a rails scaffold for users.
+Make a register page. 
+Generate a rails scaffold for nft bids.
+Create a front end view for NFT bids. 
+Create an NFT endpoint for bidding. 
+CRUD NFT Interface. 
+See bids Interface. 
+
+time = DateTime.new(params["nft_listing"]["auction_start_time(1i)"].to_i, params["nft_listing"]["auction_start_time(2i)"].to_i, params["nft_listing"]["auction_start_time(3i)"].to_i, params["nft_listing"]["auction_start_time(4i)"].to_i, params["nft_listing"]["auction_start_time(5i)"].to_i)
